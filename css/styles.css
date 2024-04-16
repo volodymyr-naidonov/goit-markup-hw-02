@@ -55,14 +55,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .menu-adress-link:hover,
 .menu-adress-link:focus {
   color: #404bbf;
 }
-
-/* ======= PORTFOLIO ======= */
 
 /* ======= HERO STYLES ======= */
 
@@ -97,7 +96,7 @@ body {
 
 /* ======= BENEFITS ======= */
 
-.subtitle-benefits {
+.benefits {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -121,8 +120,9 @@ body {
 .title-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
 }
@@ -164,10 +164,18 @@ body {
 /* ======= FOOTER STYLES ======= */
 
 .page-logo-footer {
-  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.text-color-cloud {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
